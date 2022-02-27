@@ -1,0 +1,33 @@
+.quote-box{
+  width: min(90%, 600px);
+  padding: 2rem;
+  display: grid;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.quote-box > * {
+  margin-block: 0.5rem;
+}
+
+.quote{
+  text-align: center;
+  font-size: clamp(0.8rem, 5vw, 1.5rem);
+}
+
+.quote-autor{
+  display: block;
+  text-align: end;
+  font-size: 1rem;
+}
+
+.quote-box button{
+  place-self: end;
+}
+
+.fa-quote-left{
+  float: left;
+  font-size: clamp(2.2rem, 7vw, 4rem);
+  color: #a8a8d8;
+  padding-right: 0.5rem;
+}
